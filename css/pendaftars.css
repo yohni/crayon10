@@ -1,5 +1,6 @@
-.nom{
-    padding-left: 10px;
+*{
+    padding: 0;
+    margin: 0;
 }
 table{
     margin-left: 10px;
@@ -20,6 +21,7 @@ th.right{
 
 .tabs .indicator {
     background-color: #4d2195;
+    height: 3px;
     
 }
 
@@ -29,4 +31,22 @@ th.right{
 
 .btn:hover{
     background-color: #090979;
+}
+
+body{
+    background: url('../img/astro.jpg');
+    background-position: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#tab-container{
+    overflow-x:auto;
+    background: #fff;
+}
+
+.btn{
+    font-size: 12px;
 }
