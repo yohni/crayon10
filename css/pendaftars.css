@@ -13,3 +13,20 @@ th.right{
     background-color: transparent;
      color: #4d2195; 
 }
+
+.tabs .tab a {
+    color: rgba(32, 19, 62, 0.7);
+}
+
+.tabs .indicator {
+    background-color: #4d2195;
+    
+}
+
+.btn{
+    background-color: #4d2195;
+}
+
+.btn:hover{
+    background-color: #090979;
+}
