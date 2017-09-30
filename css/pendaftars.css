@@ -1,0 +1,15 @@
+.nom{
+    padding-left: 10px;
+}
+table{
+    margin-left: 10px;
+}
+
+th.right{
+    padding-right: 70px;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+     color: #4d2195; 
+}
