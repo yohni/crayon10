@@ -7,10 +7,16 @@
  *
  * Made By MaterializeCSS.com
  */
+@font-face{
+    font-family: 'Dimbo';
+    src: url('../fonts/Dimbo.ttf');
+}
+
 
 html,
 body {
-    font-family: Roboto;
+    font-size: 15pt;
+    font-family: 'Dimbo','Roboto';
     height: 100%;
     width: 100%;
 }
@@ -27,7 +33,7 @@ nav .brand-logo {
 }
 nav ul a:hover {
     color: white;
-  background-color: #9575cd;
+  background-color: #ABBABF;
 }
 
 p {
@@ -39,7 +45,7 @@ p {
 }
 
 #tunggu{
-    height: 100%;
+    height: 100vh;
 }
 
 
@@ -66,6 +72,7 @@ p {
 
 .parallax-container .section {
     width: 100%;
+    
 }
 
 
@@ -75,12 +82,31 @@ p {
 
 @media only screen and (max-width: 992px) {
     .parallax-container .section {
-        position: absolute;
+        
         top: 40%;
     }
     #index-banner .section {
         top: 10%;
     }
+    
+    .parallax-container .section{
+        top: -15%;
+        
+    }
+    .social-wrapper{
+        position: relative;
+        bottom: 40px;
+        font-size: 20px;
+    }
+    .alamat{
+        position: relative;
+        bottom: 40px;
+    }
+    img.maskot{
+        top: 3px;
+        z-index: 100;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -140,11 +166,13 @@ p {
     font-weight: 300;
 }
 
+/*
 #timeline{
     
     height: 100%;
     padding-top: 60px;
 }
+*/
 #galeri{
    background-color: #2D1646;
     background-size: 100%;
@@ -184,7 +212,8 @@ parallax.img{
 
 #sponsor{
     background-color: #F3F0DD;
-    height: 50%;
+    height: auto;
+   
 }
 
 .carousel .carousel-item {
@@ -212,6 +241,7 @@ parallax.img{
           width: 400px;
           height: 200px;
     }
+    
 }
 
 
@@ -307,7 +337,7 @@ TIMELINE
 }
 */
 
-.header{
+.s{
     font-family: 'Permanent Marker';
 }
 
@@ -332,5 +362,73 @@ TIMELINE
     .catimg{
         margin-top: 25%;
     }
+}
+
+
+.biru-crayon{
+    background-color:#ED3237;
+    color: #fff;
+}
+
+.biru-crayon:hover{
+    background-color: #F58634;
+}
+
+.maskot{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    -webkit-transform:rotate(5deg);
+    transform: rotate(5deg);
+    -webkit-animation: mymove 1s infinite;
+    animation: mymove 1s infinite;
+}
+
+.tulisantunggu{
+    margin-top: 10px;
+}
+
+.header{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+.sponsorlogo{
+    height: 80px;
+    width: auto;
+}
+.video{
+    height: 100%;
+    width: 100%;
+}
+
+@-webkit-keyframes mymove {
+    0%   {transform: rotate(5deg);}
+
+    50% {transform: rotate(0deg);}
+    100%   {transform: rotate(5deg);}
+}
+
+.fasil{
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@keyframes mymove {
+        0%   {transform: rotate(5deg);}
+
+    50% {transform: rotate(0deg);}
+    100%   {transform: rotate(5deg);}
+}
+
+.hightlight{
+    color: black;
+}
+
+.bayar{
+    background-clip: 
 }
 

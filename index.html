@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <title>Crayon 10</title>
     <!-- CSS  -->
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" href="css/timeline.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -17,7 +18,6 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <!-- Animated Scroll  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <script>
         if (!document.location.hash) {
             document.location.hash = 'home';
@@ -28,40 +28,32 @@
 <body>
     <div class="navbar-fixed">
         <nav class="white" role="navigation">
-            
-                <div class="nav-wrapper container">
-                <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png" style="width:140px;" class="responsive-img"> </a>
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png" style="width:140px;" class="responsive-img"></a>
                 <ul class="right hide-on-med-and-down">
-                    
-                    
-                    <li><a href="#">PENGUMUMAN</a></li>
+                    <li><a href="#">TENTANG</a></li>
                     <li><a href="#">DOKUMENTASI</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#" class=" waves-effect waves-light btn deep-purple lighten-2">DAFTAR</a></li>
+                    <li><a href="#">PENGUMUMAN</a></li>
+                    <li><a href="#">KONTAK</a></li>
+                    <li><a href="#" class=" waves-effect waves-light btn biru-crayon lighten-2">DAFTAR</a></li>
                 </ul> <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> </div>
-            
-               
         </nav>
     </div>
     <ul id="nav-mobile" class="side-nav">
-        
-        
-        <li><a href="#">PENGUMUMAN</a></li>
+        <li><a href="#">TENTANG</a></li>
         <li><a href="#">DOKUMENTASI</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <li><a href="#" class="waves-effect waves-light btn deep-purple lighten-2">DAFTAR</a></li>
+        <li><a href="#">PENGUMUMAN</a></li>
+        <li><a href="#">KONTAK</a></li>
+        <li><a href="#" class="waves-effect waves-light btn biru-crayon lighten-2">DAFTAR</a></li>
     </ul>
-   
     <!-- Tunggu Apa Lagi   -->
     <div class="parallax-container valign-wrapper" id="tunggu">
         <div class="section">
             <div class="container">
-                <div class="row center">
-                    <h3 class="header col s12 light">Tunggu Apa Lagi?</h3>
+                <div class="row center"> <img src="img/maskot.png" alt="" class="maskot">
+                    <h2 class="center col s12 light">Tunggu Apa Lagi?</h2>
                     <h3>
-                    <button href="#" class="waves-effect waves-light btn deep-purple lighten-2">DAFTAR SEKARANG</button>
+                    <button href="#" class="tulisantunggu waves-effect waves-light btn biru-crayon">DAFTAR SEKARANG</button>
                     </h3>
                     <br>
                     <h6><i class="tel material-icons">local_phone</i>Mira : 081390210605<br>
@@ -79,9 +71,11 @@
                         </div>
                     </div>
                     </h3>
-                    <h6>Sekretariat : Himpunan Mahasiswa Ilmu Komputer</h6>
-                    <h6>
+                    <div class="alamat">
+                        <h6>Sekretariat : Himpunan Mahasiswa Ilmu Komputer</h6>
+                        <h6>
                     Gedung S1 Fakultas MIPA Universitas Gadjah Mada</h6> </div>
+                </div>
             </div>
         </div>
         <div class="parallax"><img src="img/astro.jpg" alt="Unsplashed background img 2"></div>
@@ -89,12 +83,21 @@
     <!-- Sponsor   -->
     <div id="sponsor">
         <div class="container">
-            <h4 class="header judul light">Sponsor</h4> </div>
-    </div>
+            <h4 class="header judul light green-text darken-4-text">Sponsor</h4> </div>
+        <br>
+        <div class="row">
+            <center>
+                <div class="col m3"></div>
+                <div class="col s12 m3"> <img src="img/macD.jpg" alt="" class="img-responsive sponsorlogo"> </div>
+                <div class="col s12 m3"> <img src="img/zipzap.png" alt="" class="sponsorlogo img-responsive"> </div>
+                <div class="col m3"></div>
+            </center>
+        </div>
+        <br> </div>
     <!-- Galeri   -->
     <div id="galeri">
         <div class="container">
-            <h4 class="header judul light">Galeri Crayon 2016</h4> </div>
+            <h4 class="header judul light amber-text">Galeri Crayon 2016</h4> </div>
         <div class="carousel">
             <a class="carousel-item"><img src="fotocrayon9/crayon1.jpg"></a>
             <a class="carousel-item"><img src="fotocrayon9/crayon2.jpg"></a>
@@ -109,60 +112,122 @@
             <a class="carousel-item"><img src="fotocrayon9/crayon11.jpg"></a>
         </div>
     </div>
+    <!--    Info-->
+    <div id="info">
+        <br>
+        <br>
+        <div class="container">
+            <h3 class="center judul light indigo-text">Info - info</h3>
+            <br>
+            <div class="row">
+                <div class="col m4 s12 center">
+                    <div class="fasil red lighten-2">
+                        <h3 class="header amber-text accent-3-text">Kategori</h3>
+                        <h5> 
+                <ul>Sekolah Dasar:
+                    <li>Kelas 1-3</li>
+                    <li>Kelas 4-6</li>
+                </ul>
+            </h5> </div>
+                </div>
+                <div class="col m4 s12 center">
+                    <div class="fasil green lighten-2">
+                        <h3 class="header  deep-orange-text darken-3-text">Side Event</h3>
+                        <h5>
+                <ul>
+                    <li>Tux Type</li>
+                    <li>Tux Math</li>
+                    <li>Virtual Reality</li>
+                    <li>Sulap</li>
+                    <li>Dongeng</li>
+                    
+                </ul></h5> </div>
+                </div>
+                <div class="col m4 s12 center">
+                    <div class="fasil yellow lighten-2">
+                        <h3 class="header green-text accent-4-text">Fasilitas</h3>
+                        <h5>
+                <ul>
+                    <li>Snack Box</li>
+                    <li>Makan Siang</li>
+                    <li>Sertifikat</li>
+                    <li>CD Aplikasi Tux</li>
+                    <li>Goody Bag</li>
+                </ul></h5> </div>
+                </div>
+            </div>
+        </div>
+        <br> </div>
+    <div class="parallax-container valign-wrapper" id="infopar">
+        <div class="section">
+            <div class="container">
+               <h4 class="center judul light yellow-text">Cara Daftar di Web</h4>
+            <br>
+                <div class="row center">
+                    <div class="row">
+                        <div class="col s12 m3 bayar">
+                            <h5>1.Isi form pendaftaran <a href="">disini.</a></h5>
+                        </div>
+                        <div class="col s12 m3 bayar">
+                            <h5>2.Lakukan pembayaran.</h5>
+                        </div>
+                        <div class="col s12 m3 bayar">
+                            <h5>3.Konfirmasi pembayaran ke 081911809449(Eme)</h5>
+                        </div>
+                        <div class="col s12 m3 bayar">
+                            <h5>4.Liat nama peserta terdaftar <a href="">disini.</a></h5>
+                        </div>
+                    </div> <a href="#info" class="animated bounce waves-effect waves-light btn biru-crayon lighten-2">Naik Lagi</a> </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="img/planet.jpg" alt="Unsplashed background img 2"></div>
+    </div>
     <!-- Timeline   -->
     <div class="Timelinekita">
-       
         <div class="container">
-           <h4 class="header judul light">Timeline Crayon 10</h4>
+            <h4 class="header judul light red-text">Jadwal</h4>
             <section class="cd-horizontal-timeline">
-                        <div class="events-content">
+                <div class="timeline">
+                    <div class="events-wrapper">
+                        <div class="events">
                             <ul>
-                                <li class="selected" data-date="16/01/2014">
-                                    <h4>Horizontal Timeline</h4> <em>January 16th, 2014</em>
-                                   
-                                </li>
-                                <li data-date="28/02/2014">
-                                    <h4>Horizontal Timeline</h4> <em>January 16th, 2014</em>
-                                    
-                                </li>
-                                <li data-date="20/04/2014">
-                                    <h4>Horizontal Timeline</h4> <em>January 16th, 2014</em>
-                                    
-                                </li>
-                                <li data-date="11/09/2014">
-                                    <h4>Horizontal Timeline</h4> <em>January 16th, 2014</em>
-                                    
-                                </li>
-                                <li data-date="08/01/2015">
-                                    <h4>Horizontal Timeline</h4> <em>January 16th, 2014</em>
-                                    
-                                </li>
-            
-                            </ul>
-                        </div>
-                        <!-- .events-content -->
-                        <div class="timeline">
-                            <div class="events-wrapper">
-                                <div class="events">
-                                    <ul>
-                                        <li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
-                                        <li><a href="#0" data-date="28/02/2014">28 Feb</a></li>
-                                        <li><a href="#0" data-date="20/04/2014">20 Mar</a></li>
-                                        <li><a href="#0" data-date="11/09/2014">20 May</a></li>
-                                        <li><a href="#0" data-date="08/01/2015">09 Jul</a></li>
-                                        
-                                    </ul> <span class="filling-line" aria-hidden="true"></span> </div>
-                                <!-- .events -->
-                            </div>
-                            <!-- .events-wrapper -->
-                            <ul class="cd-timeline-navigation">
-                                <li><a href="#0" class="prev inactive">Prev</a></li>
-                                <li><a href="#0" class="next">Next</a></li>
-                            </ul>
-                            <!-- .cd-timeline-navigation -->
-                        </div>
-                        <!-- .timeline -->
-                    </section>
+                                <li><a href="#0" data-date="11/09/2017" class="selected">11 Sept</a></li>
+                                <li><a href="#0" data-date="18/09/2017">18 Sept</a></li>
+                                <li><a href="#0" data-date="13/10/2017">13 Okt</a></li>
+                                <li><a href="#0" data-date="12/11/2017">12 Nov</a></li>
+                            </ul> <span class="filling-line" aria-hidden="true"></span> </div>
+                        <!-- .events -->
+                    </div>
+                    <!-- .events-wrapper -->
+                    <ul class="cd-timeline-navigation">
+                        <li><a href="#0" class="prev inactive">Prev</a></li>
+                        <li><a href="#0" class="next">Next</a></li>
+                    </ul>
+                    <!-- .cd-timeline-navigation -->
+                </div>
+                <!-- .timeline -->
+                <div class="events-content">
+                    <ul>
+                        <li class="selected" data-date="11/09/2017">
+                            <h5 class="indigo-text"><b>Publikasi</b></h5> <em>                             11 September 2017
+                                   <p class="p">Penyebaran poster Crayon ke sekolah sekolah dasar di Yogyakarta. Penyebaran juga melalui media sosial.</p>
+                                    </em> </li>
+                        <li data-date="18/09/2017">
+                            <h5 class="lime-text accent-2-text"><b>Pendaftaran</b></h5> <em>                             18 September 2017
+                                   <p class="p">Pendaftaran bisa dilakukan secara offline di <span class="hightlight">lobby gedung S1 FMIPA UGM</span> <br>Senin-Jumat <span class="hightlight">pukul 09:00 -  17:00 WIB</span> <br> atau secara online <a href="#">disini</a>.</p>
+                                    </em> </li>
+                        <li data-date="13/10/2017">
+                            <h5 class="green-text"><b>RoadShow</b></h5> <em>                             13 s/d 30 Oktober 2017
+                                   <p class="p">Roadshow dilakukan untuk mengenalkan acara Crayon pada anak - anak sekolah dasar.</p>
+                                    </em> </li>
+                        <li data-date="12/11/2017">
+                            <h5><b>Perlombaan</b></h5> <em>                             12 Oktober 2017
+                                   <p class="p">Perlombaan diadakan di Taman Pintar Yogyakarta <br>Pukul 08:00WIB -Selesai  </p>
+                                    </em> </li>
+                    </ul>
+                </div>
+                <!-- .events-content -->
+            </section>
         </div>
         <!-- <div id="time">
         <div class="container">
@@ -217,7 +282,11 @@
             <div class="section">
                 <div class="container">
                     <div class="row center">
-                        <h3 class="header col s12 light">Lihat Video</h3> </div>
+                        <h3 class="header col s12 light yellow-text">Lihat Video</h3>
+                        <div class="video intrinsic-container intrinsic-container-16x9">
+                            <iframe src="https://www.youtube.com/embed/ee62Oez5zPE" frameborder="0" allowfullscreen width="890" height="380"></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="parallax"><img src="img/planet12.jpg" alt="Unsplashed background img 2"></div>
@@ -225,8 +294,8 @@
         <!-- About -->
         <div id="about">
             <div class="container">
+                <h3 class="center judul light pink-text darken-3-text">Adalah...</h3>
                 <div class="row">
-                    
                     <div class="col l7 m6 s12">
                         <div class="valign-wrapper">
                             <div>
@@ -235,13 +304,13 @@
                         </div>
                     </div>
                     <div class="col l5 m6 hide-on-small-and-down">
-                        <center><img src="img/cat.png" alt="" class="catimg responsive-img">
-                          </center></div>
+                        <center><img src="img/astronotjoget.png" alt="" class="catimg responsive-img"> </center>
+                    </div>
                 </div>
                 <div class="row about2">
                     <div class="col l5 m6 hide-on-small-and-down">
-                        <center><img src="img/cat.png" alt="" class="catimg responsive-img">          </center>          
-                     </div>
+                        <center><img src="img/piring.png" alt="" class="catimg responsive-img"> </center>
+                    </div>
                     <div class="col l7 m6 s12">
                         <div class="valign-wrapper">
                             <div>
@@ -258,7 +327,7 @@
                 <div class="container">
                     <div class="row center">
                         <h5 class="header col s12 light">Tema :</h5>
-                        <h3 class="header col s12 light">Into the Outer Space</h3> <a href="#about" class="waves-effect waves-light btn deep-purple lighten-2">Scroll Up</a> </div>
+                        <h3 class="header col s12 light">Ke luar Angkasa</h3> <a href="#about" class="animated bounce waves-effect waves-light btn biru-crayon lighten-2">Scroll Up</a> </div>
                 </div>
             </div>
             <div class="parallax"><img src="img/planet7.png" alt="Unsplashed background img 2"></div>
@@ -268,41 +337,59 @@
             <div class="container" style="height: 100%">
                 <div class="section">
                     <div class="row"> <img class="logo" src="img/logo.png">
-                        <div class="col s12 center"> <a href="#tema" class="waves-effect waves-light btn deep-purple lighten-2">MELUNCUR</a> </div>
+                        <div class="col s12 center"> <a href="#tema" class="waves-effect waves-light btn biru-crayon lighten-2 animated flash">MELUNCUR</a> </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--  Scripts-->
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="js/materialize.js"></script>
-        <script src="js/init.js"></script>
-        <!--  Scripts-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js/jQku.js"></script>
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="js/materialize.js"></script>
-        <script src="js/init.js"></script>
-        <!-- Animated Scroll  -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                $("a").on('click', function (event) {
-                    if (this.hash !== "") {
-                        event.preventDefault();
-                        var hash = this.hash;
-                        $('html, body').animate({
-                            scrollTop: $(hash).offset().top
-                        }, 2000, function () {
-                            window.location.hash = hash;
-                        });
-                    }
-                });
+    </div>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <!--  Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jQku.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <!-- Animated Scroll  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 2000, function () {
+                        window.location.hash = hash;
+                    });
+                }
             });
-            if (!document.location.hash) {
-                document.location.hash = 'home';
-            }
-        </script>
+        });
+        if (!document.location.hash) {
+            document.location.hash = 'home';
+        }
+        // Find all iframes
+        var $iframes = $("iframe");
+        // Find &#x26; save the aspect ratio for all iframes
+        $iframes.each(function () {
+            $(this).data("ratio", this.height / this.width)
+                // Remove the hardcoded width &#x26; height attributes
+                .removeAttr("width").removeAttr("height");
+        });
+        // Resize the iframes when the window is resized
+        $(window).resize(function () {
+            $iframes.each(function () {
+                // Get the parent container&#x27;s width
+                var width = $(this).parent().width();
+                $(this).width(width).height(width * $(this).data("ratio"));
+            });
+            // Resize to fix all iframes on page load.
+        }).resize();
+    </script>
 </body>
 
 </html>
